@@ -56,7 +56,15 @@ $(function () {
  $('.mopen').on('click', function () {
     $('.gnb').toggleClass('on');
     $(this).toggleClass('on');
-  });
+     });
+//     const menuOpenBtn = document.querySelector('.mopen');
+//   const mainMenu = document.querySelector('.gnb > ul');
+
+//   menuOpenBtn.addEventListener('click', function() {
+//     mainMenu.classList.toggle('open');
+//   });
+    
+    
 
     $('.sub_tab li').on('click', function (e) {
         e.preventDefault();
